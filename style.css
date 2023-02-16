@@ -293,3 +293,63 @@ color:rgb(56,74,98);
     color: white;
     
 }
+.text-print-shop {
+    padding-top: 70px;
+    line-height: 30px;
+}
+.text-print-shop h2{
+    color: rgb(56, 74, 98);
+    font-size: 30px;
+}
+.text-print-shop p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: rgb(93, 109, 130);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.text-print-shop img{
+padding-bottom: 40px;
+}
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.feedbacks {
+   
+    margin-left: -60px;
+    margin-right: -60px;
+    background-color: rgb(241, 250, 255);
+    height: 50vh;
+    padding-left: 53px;
+  
+}
+.feedback-header{
+    padding-top: 30px;
+}
+.feedback-header h2{
+    /* padding-top: 30px; */
+    font-size: 30px;
+}
+.feedback-card{
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+    width: 30vw;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* margin-bottom: 50px; */
+    font-family: sans-serif;
+    line-height: 1.5em;
+    
+}
+.feedback-card h4{
+font-size: 20px;
+}
+.feedback-card p{
+font-size: 18px;
+padding-top: 3vh;
+color: gray;
+}
