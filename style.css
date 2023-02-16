@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.one{
+    background-color: rgb(255, 255, 255);
+    padding: 13px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.flex{
+    justify-content: space-evenly;
+    gap: 30px;
+    
+
+}
+
+ul li {
+    display: inline;
+   color: rgb(75, 99, 130);
+    text-decoration: none;
+   
+    
+}
+a{
+ text-decoration:none ;
+ color: rgb(78, 78, 78);
+
+}
+.flex-Nigeria {
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(221, 221, 221);
+    
+}
+
+.mainhd{
+    background-color: rgb(236,232,217);
+    height: 79vh;
+    width: auto;
+    /* justify-content: center; */
+    padding-left: 5vw;
+}
+    
+.two {
+ padding:20px 7vw 20px 0px; 
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    color: rgb(78, 78, 78);
+}
+
+h1{
+    display: inline;
+    margin-top: -10px;
+}
+.bflex{
+    justify-content: space-evenly;
+}
+.bflex1{
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(209, 209, 209);
+}
+.mainhd .two .bflex li{
+    padding-left: 20px;
+    /* padding-top: 300px; */
+    
+
+}
+.cta{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 0px;
+}
+.text{
+    /* margin: 80px; */
+    padding: 20px;
+}
+ .text h1{
+font-size: 70px;
+margin-top: 30px;
+color: rgb(56,74,98);
+} 
+.hand{
+    margin-top: 8px;
+    /* margin-left: 400px; */
+}
+
+form .input{
+    padding: 20px 30px 20px 5px ;
+    font-size: 15px;
+    color: rgb(56,74,98);
+}
+form label{
+    /* padding: 30px 70px ; */
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: rgb(56,74,98);
+}
+.text p{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:rgb(130, 156, 190) ;
+}
+#product-section {
+
+    width: 90vw;
+    margin: auto;
+    
+   
+}
+.product-section-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    font-family: sans-serif;
+}
+
+.product-section-header a{
+font-size: large;
+color:brown;
+}
+#all-products-lists{
+    display: flex;
+    flex-flow: wrap;
+    gap: 35px;
+    /* width: 80vw; */
+    justify-content: center;
+    margin: 0px;
+    
+   
+}
+.product-section-header h3{
+font-size: 30px;
+color:rgb(56,74,98);
+}
+.each-product-card{
+    background-color: rgb(255, 255, 255);
+    /* height: 420px; */
+    max-width: 270px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin: 15px 0px 30px 0px; */
+    box-shadow: -1px 1px 10px rgb(219, 219, 219);
+}
+.product-image{
+    width: 270px;
+}
+.product-texts{
+    line-height: 45px;
+    padding-left: 30px;
+    font-family: sans-serif;
+    
+}
+.product-texts h3{
+    font-size: 16px;
+    
+}
+.product-texts p{
+    /* font-size: 16px; */
+    font-weight: 600;
+    color: brown;
+    
+    
+}
+
+.each-product-card button {
+    
+    background-color: rgb(215, 127, 129);
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 40px 10px 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.each-product-card button a {
+    
+   
+    color: white;
+    
+}
